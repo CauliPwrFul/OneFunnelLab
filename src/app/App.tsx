@@ -228,7 +228,25 @@ function FunnelSlide({
       </div>
 
       {/* main content */}
-      <div className="flex flex-1 min-h-0">
+      <div className="relative flex flex-1 min-h-0">
+        {/* Fixed navigation arrows - always visible */}
+        <button
+          onClick={onPrev}
+          disabled={index === 0}
+          className="absolute left-4 top-1/2 -translate-y-1/2 z-50 flex items-center justify-center w-12 h-12 bg-background/90 backdrop-blur-sm border border-border text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-200 disabled:opacity-20 disabled:cursor-not-allowed shadow-lg"
+          aria-label="Previous funnel"
+        >
+          <ArrowLeft size={20} />
+        </button>
+        <button
+          onClick={onNext}
+          disabled={index === total - 1}
+          className="absolute right-4 top-1/2 -translate-y-1/2 z-50 flex items-center justify-center w-12 h-12 bg-background/90 backdrop-blur-sm border border-border text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-200 disabled:opacity-20 disabled:cursor-not-allowed shadow-lg"
+          aria-label="Next funnel"
+        >
+          <ArrowRight size={20} />
+        </button>
+
         {/* left info panel */}
         <aside
           className="hidden md:flex flex-col justify-between w-72 lg:w-80 shrink-0 border-r border-border px-10 py-10"
@@ -358,15 +376,6 @@ function FunnelSlide({
                   className="w-full h-auto block"
                   style={{ minHeight: "800px", objectFit: "cover" }}
                 />
-                {/* drop overlay hint */}
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-background/60 pointer-events-none">
-                  <span
-                    className="text-xs tracking-[0.2em] uppercase text-foreground border border-border px-4 py-2"
-                    style={{ fontFamily: "'DM Sans', sans-serif" }}
-                  >
-                    Replace with funnel image
-                  </span>
-                </div>
               </div>
 
               {/* scroll hint */}
