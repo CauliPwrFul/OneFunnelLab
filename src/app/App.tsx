@@ -199,7 +199,7 @@ function FunnelSlide({
         style={{ minHeight: "64px" }}
       >
         <button
-          onClick={onCover}
+          onClick={() => { window.location.href = 'https://www.onefunnel-lab.com'; }}
           className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-primary transition-colors duration-200"
           style={{ fontFamily: "'DM Sans', sans-serif" }}
         >
