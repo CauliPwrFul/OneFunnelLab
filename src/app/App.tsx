@@ -121,10 +121,9 @@ const funnels: Funnel[] = [
       "A clean website directory for a personal project.",
     tags: ["Directory", "Sample", "Website"],
     imageUrl:
-      "https://drive.google.com/file/d/1eMUBfwJM8Z8NSmq8kY0Wsbcn_VmA391y/view?usp=sharing?w=960&auto=format&fit=crop",
+      "https://drive.google.com/file/d/1Sr0hEhvBC5U_o2WWiVVrfP2MTZOiBp7P/view?usp=sharing?w=960&auto=format&fit=crop",
     imageAlt: "Directory website for a personal project",
   },
-  https://drive.google.com/file/d/1Sr0hEhvBC5U_o2WWiVVrfP2MTZOiBp7P/view?usp=sharing
 ];
 
 function CoverSlide({ onStart }: { onStart: () => void }) {
