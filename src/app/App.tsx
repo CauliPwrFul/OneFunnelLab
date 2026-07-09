@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { ArrowRight, ArrowLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, ArrowLeft } from "lucide-react";
 
 function resolveImageUrl(url: string): string {
   const match = url.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
@@ -108,7 +108,7 @@ const funnels: Funnel[] = [
       "A clean opt-in funnel leading to a booking page.",
     tags: ["Booking", "Sample", "Funnel"],
     imageUrl:
-      "https://drive.google.com/file/d/1eMUBfwJM8Z8NSmq8kY0Wsbcn_VmA391y/view?usp=sharing?w=960&auto=format&fit=crop",
+      "https://drive.google.com/file/d/1eMUBfwJM8Z8NSmq8kY0Wsbcn_VmA391y/view?usp=sharing?w=auto&auto=format&fit=crop",
     imageAlt: "Booking funnel for TSG Wealth Capital with opt-in and thank you page",
   },
     {
