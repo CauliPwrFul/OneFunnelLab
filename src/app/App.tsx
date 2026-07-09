@@ -413,7 +413,6 @@ function FunnelSlide({
                   src={resolveImageUrl(funnel.imageUrl)}
                   alt={funnel.imageAlt}
                   className="w-full h-auto block"
-                  style={{ minHeight: "800px", objectFit: "cover" }}
                 />
               </div>
 
