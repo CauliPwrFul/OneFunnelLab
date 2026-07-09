@@ -24,10 +24,10 @@ const funnels: Funnel[] = [
     id: 1,
     title: "Opt-In Funnel",
     client: "Better Leads Aus.",
-    category: "Application Funnel",
+    category: "Opt-In Funnel",
     year: "2026",
     description:
-      "A sample funnel driving leads for a B2B lead generation agency. Optimised the hook, story, offer and reduced friction at the opt-in step.",
+      "A funnel driving leads for a B2B lead generation agency. Optimised the hook, story, offer and reduced friction at the opt-in step.",
     tags: ["B2B", "Lead Generation"],
     imageUrl:
       "https://drive.google.com/file/d/1p3Lx_IxpcN0q2FKL60s1bQvFe9DWaJOp/view?usp=sharing",
@@ -37,10 +37,10 @@ const funnels: Funnel[] = [
     id: 2,
     title: "Registration Funnel",
     client: "Fly High Futures",
-    category: "Application Funnel",
+    category: "Registration Funnel",
     year: "2026",
     description:
-      "Registration funnel for a motivational speaker and coach",
+      "Registration funnel for a motivational speaker and coach. NB: Client did not provide high-res images.",
     tags: ["Coaching", "Seminar", "B2B"],
     imageUrl:
       "https://drive.google.com/file/d/1Mh8_mBfYcdqPQYHU9V5NcVGat4BtFL1V/view?usp=sharing?w=960&auto=format&fit=crop",
@@ -50,27 +50,27 @@ const funnels: Funnel[] = [
     id: 3,
     title: "Property Investment Lead Generation",
     client: "Karen In Property",
-    category: "Application Funnel",
+    category: "Opt-In Funnel",
     year: "2026",
     description:
       "An Opt-In funnel for a property investment company. Planned a quiz-style pre-sell page.",
-    tags: ["Property", "Quiz", "B2C"],
+    tags: ["Property", "B2C"],
     imageUrl:
       "https://drive.google.com/file/d/1zr1um-rHl0-fNu9KwHX9ehqdzDxcOmT9/view?usp=sharing?w=960&auto=format&fit=crop",
     imageAlt: "Funnel design for Property Investment Company",
   },
   {
     id: 4,
-    title: "High-Ticket Closer Funnel",
+    title: "High-Ticket Booking Funnel",
     client: "Kora Laser Clinic",
-    category: "Application Funnel",
-    year: "2024",
+    category: "Booking Funnel",
+    year: "2026",
     description:
-      "A premium application funnel for a laser clinic.",
-    tags: ["Premium", "Application", "B2C"],
+      "A premium booking funnel for a laser clinic.",
+    tags: ["Premium", "Booking", "B2C"],
     imageUrl:
       "https://drive.google.com/file/d/15UZvzB6b8R5wpLHTIyTnG8pPQ2mk2wXA/view?usp=sharing?w=960&auto=format&fit=crop",
-    imageAlt: "High-Ticket Application Funnel with VSL and qualifier pages",
+    imageAlt: "High-Ticket Booking Funnel with VSL and qualifier pages",
   },
   {
     id: 5,
@@ -83,7 +83,7 @@ const funnels: Funnel[] = [
     tags: ["Lead Magnet", "Interior", "Email Sequence"],
     imageUrl:
       "https://drive.google.com/file/d/1S38EuDcQTpvYvaJEhESDOo5FEVKgfzEG/view?usp=sharing?w=960&auto=format&fit=crop",
-    imageAlt: "Lead Magnet funnel for an Interior Design brand with opt-in and thank you page",
+    imageAlt: "Lead funnel for an Interior Design brand with opt-in and thank you page",
   },
     {
     id: 6,
@@ -105,7 +105,7 @@ const funnels: Funnel[] = [
     category: "Sample Funnel",
     year: "2026",
     description:
-      "A clean opt-in funnel leading to a booking page.",
+      "A clean opt-in funnel leading to a booking page. Sample design for a property investment company.",
     tags: ["Booking", "Sample", "Funnel"],
     imageUrl:
       "https://drive.google.com/file/d/1eMUBfwJM8Z8NSmq8kY0Wsbcn_VmA391y/view?usp=sharing?w=auto&auto=format&fit=crop",
@@ -113,7 +113,7 @@ const funnels: Funnel[] = [
   },
     {
     id: 8,
-    title: "Directory",
+    title: "Website Directory",
     client: "Personal Project",
     category: "Sample Website",
     year: "2026",
