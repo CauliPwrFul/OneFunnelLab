@@ -69,7 +69,7 @@ const funnels: Funnel[] = [
       "A premium application funnel for a laser clinic.",
     tags: ["Premium", "Application", "B2C"],
     imageUrl:
-      "https://drive.google.com/file/d/1a1FgqA8rx3qqbqpQjUCn4OxkO5T0qBHE/view?usp=sharing?w=960&auto=format&fit=crop",
+      "https://drive.google.com/file/d/15UZvzB6b8R5wpLHTIyTnG8pPQ2mk2wXA/view?usp=sharing?w=960&auto=format&fit=crop",
     imageAlt: "High-Ticket Application Funnel with VSL and qualifier pages",
   },
   {
@@ -85,6 +85,46 @@ const funnels: Funnel[] = [
       "https://drive.google.com/file/d/1S38EuDcQTpvYvaJEhESDOo5FEVKgfzEG/view?usp=sharing?w=960&auto=format&fit=crop",
     imageAlt: "Lead Magnet funnel for an Interior Design brand with opt-in and thank you page",
   },
+    {
+    id: 6,
+    title: "Opt-In Funnel + VSL",
+    client: "AI Influencer Blueprint",
+    category: "VSL Funnel",
+    year: "2026",
+    description:
+      "A clean opt-in and vsl funnel delivering for an affiliate marketer.",
+    tags: ["VSL", "Opt-In", "Affiliate"],
+    imageUrl:
+      "https://drive.google.com/file/d/1sA2mWqiI9flCIYJLQOsgC8cCw3PoA9-9/view?usp=sharing?w=960&auto=format&fit=crop",
+    imageAlt: "VSL funnel for AI Influencer Blueprint with opt-in and thank you page",
+  },
+    {
+    id: 7,
+    title: "Booking Funnel",
+    client: "TSG Wealth Capital",
+    category: "Sample Funnel",
+    year: "2026",
+    description:
+      "A clean opt-in funnel leading to a booking page.",
+    tags: ["Booking", "Sample", "Funnel"],
+    imageUrl:
+      "https://drive.google.com/file/d/1eMUBfwJM8Z8NSmq8kY0Wsbcn_VmA391y/view?usp=sharing?w=960&auto=format&fit=crop",
+    imageAlt: "Booking funnel for TSG Wealth Capital with opt-in and thank you page",
+  },
+    {
+    id: 8,
+    title: "Directory",
+    client: "Personal Project",
+    category: "Sample Website",
+    year: "2026",
+    description:
+      "A clean website directory for a personal project.",
+    tags: ["Directory", "Sample", "Website"],
+    imageUrl:
+      "https://drive.google.com/file/d/1eMUBfwJM8Z8NSmq8kY0Wsbcn_VmA391y/view?usp=sharing?w=960&auto=format&fit=crop",
+    imageAlt: "Directory website for a personal project",
+  },
+  https://drive.google.com/file/d/1Sr0hEhvBC5U_o2WWiVVrfP2MTZOiBp7P/view?usp=sharing
 ];
 
 function CoverSlide({ onStart }: { onStart: () => void }) {
